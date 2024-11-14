@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+.box-one {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    position: absolute;
+}
+
+.box-two {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    right: 0;
+}
+
+.box-three {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    position: absolute;
+    bottom: 0;
+}
+
+.box-four {
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
